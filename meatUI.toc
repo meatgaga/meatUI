@@ -1,0 +1,89 @@
+﻿## Interface: 30200
+## Title: |cffCC3333meatUI|r Core
+## Notes: A total UI overhaul for CWOW
+## Author: meatGaGa
+## Version: 1.0
+## Credits: ALZA, Tekkub, Monolit, Awbee, Industrial, Nightcracker, Kemayo, yleaf, Tukz, v6o, Stuck, Fernir, Eclipse, Elv22, Affli, Shestak, eP
+## OptionalDeps: meatUI_Config
+## SavedVariables: SavedOptions
+## SavedVariablesPerCharacter: InstalledUI
+## X-oUF: oUF
+
+libs\meatUI\variables.lua
+
+locales\zhCN.lua
+
+config\media.lua
+config\element.lua
+config\position.lua
+config\user_config.lua
+config\aurawatch.lua
+config\errors.lua
+
+libs\meatUI\core.lua
+libs\meatUI\gui.lua
+libs\oUF\oUF.xml
+libs\oUF_HealComm4\oUF_HealComm4.xml
+libs\oUF_HealComm4\oUF_HealComm4.lua
+libs\oGlow\oGlow.xml
+
+scripts\misc.lua
+scripts\color.lua
+
+libs\meatUI\launch.lua
+
+scripts\addonloader.lua
+scripts\autodisable.lua
+scripts\commands.lua
+scripts\drag.lua
+scripts\afk.lua
+scripts\autodez.lua
+scripts\autorelease.lua
+scripts\professiontabs.lua
+scripts\binder.lua
+scripts\durability.lua
+scripts\duel.lua
+scripts\error.lua
+scripts\invite.lua
+scripts\notifaction.lua
+scripts\quests.lua
+scripts\symbol.lua
+##scripts\dressup.lua
+scripts\addfriend.lua
+scripts\reputation.lua
+scripts\hattrick.lua
+scripts\macro\buffet.lua
+scripts\macro\dmpmacro.lua
+scripts\macro\select.lua
+scripts\macro\mount.lua
+scripts\class\hunter.lua
+scripts\class\mage.lua
+scripts\class\paladin.lua
+
+elements\font.lua
+elements\cooldown.lua
+elements\coolline.lua
+elements\pulsecd.lua
+elements\actionbar.lua
+elements\actionbutton.lua
+elements\totem.lua
+elements\chat.lua
+elements\loot.lua
+elements\lootroll.lua
+elements\minimap.lua
+elements\map.lua
+elements\groupicons.lua
+elements\tooltip.lua
+elements\nameplate.lua
+elements\statpanel.lua
+elements\bubble.lua
+elements\mirrorbar.lua
+elements\enemycd.lua
+elements\raidcd.lua
+elements\threat.lua
+
+unitframe\templates.xml
+unitframe\functions.lua
+unitframe\colors.lua
+unitframe\tags.lua
+unitframe\unitframe.lua
